@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <header>
-      <router-link to="home">首页</router-link>
-      <router-link to="about">关于我们</router-link>
-      <router-link to="contact">联系我们</router-link>
+      <router-link to={"/home"}>首页</router-link>
+      <router-link to={"/about"}>关于我们</router-link>
+      <router-link to={"/contact"}>联系我们</router-link>
     </header>
     <router-view></router-view>
   </div>
